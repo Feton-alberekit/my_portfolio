@@ -85,22 +85,3 @@ html[dir=rtl] .hero h1{
 .build-section{padding:18px 0 46px}.section-lead{max-width:680px;margin:12px auto 0;color:#aebbd0;font-size:15px;line-height:1.8}.build-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.build-card{position:relative;overflow:hidden;min-height:210px;padding:28px;border:1px solid rgba(92,137,202,.26);border-radius:15px;background:linear-gradient(145deg,rgba(7,22,43,.96),rgba(4,13,28,.94));box-shadow:var(--shadow);transition:transform .25s,border-color .25s,box-shadow .25s}.build-card:before{content:"";position:absolute;inset:auto -45px -65px auto;width:150px;height:150px;border-radius:50%;background:radial-gradient(circle,rgba(126,63,255,.18),transparent 70%)}.build-card:hover{transform:translateY(-6px);border-color:rgba(0,205,255,.55);box-shadow:0 18px 45px rgba(0,0,0,.34),0 0 28px rgba(0,199,255,.08)}.build-icon{width:48px;height:48px;border-radius:13px;display:grid;place-items:center;margin-bottom:20px;color:var(--cyan);font-size:23px;background:linear-gradient(145deg,rgba(0,191,255,.15),rgba(137,55,255,.13));border:1px solid rgba(0,204,255,.26)}.build-card h3{margin:0 0 12px;font-size:19px}.build-card p{margin:0;color:#aeb9ca;font-size:14px;line-height:1.8}.about-intro p{font-size:14px;line-height:1.85}.small-outline{font-size:13px;padding:11px 19px}.values-grid h3{font-size:16px}.values-grid p{font-size:13px;line-height:1.75}
 @media(max-width:900px){.build-grid{grid-template-columns:1fr}.build-card{min-height:auto}}
 @media(max-width:680px){.build-section{padding-bottom:34px}.section-lead{font-size:14px}.build-card{padding:22px}.about-intro p{font-size:13.5px}.values-grid{grid-template-columns:1fr}.values-grid article{border-right:0!important;border-left:0!important;border-bottom:1px solid var(--softline)}.values-grid article:last-child{border-bottom:0}}
-.copy-email-btn {
-  font: inherit;
-  color: inherit;
-  background: transparent;
-  border: 1px solid rgba(113, 160, 255, 0.25);
-  border-radius: 12px;
-  padding: 12px 16px;
-  cursor: pointer;
-  transition:
-    transform 0.25s ease,
-    border-color 0.25s ease,
-    background 0.25s ease;
-}
-
-.copy-email-btn:hover {
-  transform: translateY(-2px);
-  border-color: #00dcff;
-  background: rgba(0, 220, 255, 0.08);
-}
