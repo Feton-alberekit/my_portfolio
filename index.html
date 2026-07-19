@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#030814">
+  <meta name="description" content="Feton Alberekit — artificial intelligence, machine learning and data portfolio.">
+  <meta name="keywords" content="Feton Alberekit, artificial intelligence, machine learning, data analytics, Python, SQL">
+  <meta name="author" content="Feton Alberekit">
+  <meta property="og:title" content="Feton Alberekit | AI Portfolio">
+  <meta property="og:description" content="Building intelligent solutions with AI, machine learning and data.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/feton-portrait.jpg">
+  <title>Feton Alberekit | AI Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-logo">FA</div>
+    <div class="preloader-title" data-i18n="initializing">Initializing Portfolio...</div>
+    <div class="preloader-line"><span></span></div>
+  </div>
+
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="page-glow glow-left"></div>
+  <div class="page-glow glow-right"></div>
+
+  <header class="topbar">
+    <a class="logo" href="#home" aria-label="Feton Alberekit home">
+      <strong>FA</strong><span data-i18n="name">FETON ALBEREKIT</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false"><i></i><i></i><i></i></button>
+    <nav id="mainNav">
+      <a href="#home" class="active" data-i18n="home">Home</a>
+      <a href="#about" data-i18n="about">About</a>
+      <a href="#expertise" data-i18n="expertise">Expertise</a>
+      <a href="#projects" data-i18n="projects">Projects</a>
+      <a href="#journey" data-i18n="journey">Journey</a>
+      <a href="#contact" data-i18n="contact">Contact</a>
+    </nav>
+    <div class="language-pill" aria-label="Language selector">
+      <button class="active" id="englishBtn">EN</button><span></span><button id="arabicBtn">AR</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <p class="intro" data-i18n="hello">Hi, I'm</p>
+        <h1 data-i18n="name">Feton Alberekit</h1>
+        <h2 data-i18n-html="headline">Building Intelligent Solutions<br>with <em>AI</em>, <em>Machine Learning</em> &amp; <em>Data</em></h2>
+        <p class="hero-description" data-i18n="heroDescription">Passionate about transforming data into intelligent solutions through machine learning, data analytics, and AI-driven technologies. I enjoy building practical systems that solve real-world challenges while continuously exploring emerging technologies.</p>
+        <div class="hero-buttons">
+          <a class="button primary" href="#projects"><span data-i18n="explore">Explore My Work</span><b>›</b></a>
+          <a class="button secondary" href="#contact"><span data-i18n="contactMe">Contact Me</span><b>➤</b></a>
+        </div>
+        <div class="hero-topics">
+          <span><b>◉</b> AI</span><span><b>✣</b> ML</span><span><b>▥</b> Data</span><span><b>♧</b> <i data-i18n="problemSolving">Problem Solving</i></span><span><b>♢</b> <i data-i18n="innovation">Innovation</i></span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Feton Alberekit illustrated portrait">
+        <div class="mesh-orbit orbit-a"></div>
+        <div class="mesh-orbit orbit-b"></div>
+        <div class="mesh-dots"></div>
+        <img src="assets/feton-portrait.jpg" alt="3D illustrated portrait representing Feton Alberekit">
+        <div class="portrait-fade"></div>
+      </div>
+    </section>
+
+    <section class="container build-section" id="build">
+      <div class="section-heading reveal">
+        <div class="eyebrow" data-i18n="whatIBuildCaps">WHAT I BUILD</div>
+        <h2 data-i18n="whatIBuild">What I Build</h2>
+        <p class="section-lead" data-i18n="whatIBuildLead">Practical, data-driven solutions designed around real needs and measurable outcomes.</p>
+      </div>
+      <div class="build-grid">
+        <article class="build-card reveal"><div class="build-icon">◉</div><h3 data-i18n="aiSolutions">AI Solutions</h3><p data-i18n="aiSolutionsText">Designing intelligent solutions that turn real-world challenges into structured, usable systems.</p></article>
+        <article class="build-card reveal"><div class="build-icon">⌁</div><h3 data-i18n="mlModels">Machine Learning Models</h3><p data-i18n="mlModelsText">Developing, evaluating, and improving predictive models with a focus on reliable performance.</p></article>
+        <article class="build-card reveal"><div class="build-icon">▥</div><h3 data-i18n="dataAnalyticsBuild">Data Analytics</h3><p data-i18n="dataAnalyticsBuildText">Transforming complex data into clear insights that support better decisions and practical action.</p></article>
+      </div>
+    </section>
+
+    <section class="container compact-section" id="about">
+      <div class="about-strip reveal">
+        <div class="about-intro">
+          <div class="large-icon neon-icon">♙</div>
+          <div>
+            <div class="eyebrow" data-i18n="aboutMe">ABOUT ME</div>
+            <p data-i18n="aboutParagraph">I focus on building data-driven and AI-powered solutions for real-world problems in a structured, scalable way. I begin by understanding the challenge and analyzing the data, then select the right approach and turn results into clear, practical solutions that create meaningful value. I continuously develop my skills and explore emerging technologies to build more efficient and impactful systems.</p>
+            <a href="#journey" class="small-outline"><span data-i18n="moreAbout">Explore My Journey</span><b>›</b></a>
+          </div>
+        </div>
+        <div class="values-grid">
+          <article><div class="mini-icon cyan">◉</div><h3 data-i18n="dataDriven">Methodical Problem Understanding</h3><p data-i18n="dataDrivenText">I analyze the problem and define its goals before selecting tools or models, ensuring the solution addresses the real need.</p></article>
+          <article><div class="mini-icon pink">⟳</div><h3 data-i18n="continuous">Data-Driven Decisions</h3><p data-i18n="continuousText">I use analysis and discovered patterns to guide decisions and build solutions grounded in evidence.</p></article>
+          <article><div class="mini-icon violet">♙</div><h3 data-i18n="solver">Scalable Solutions</h3><p data-i18n="solverText">I design practical solutions that can be improved and expanded as requirements and projects evolve.</p></article>
+          <article><div class="mini-icon pink">♢</div><h3 data-i18n="thinker">Continuous Growth</h3><p data-i18n="thinkerText">I strengthen my capabilities through hands-on projects, experimentation, and continuous exploration of modern technologies.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section" id="expertise">
+      <div class="section-heading reveal"><div class="eyebrow" data-i18n="expertiseCaps">EXPERTISE</div><h2 data-i18n="toolkit">My Technical Toolkit</h2></div>
+      <div class="skill-grid">
+        <article class="skill-card cyan-card reveal"><div class="card-icon">&lt;/&gt;</div><h3 data-i18n="programming">Programming &amp; Databases</h3><ul><li>Python</li><li>SQL</li><li>Oracle Database</li></ul></article>
+        <article class="skill-card purple-card reveal"><div class="card-icon">◉</div><h3 data-i18n="machineLearning">Machine Learning</h3><ul><li>Random Forest</li><li>Logistic Regression</li><li>LightGBM</li><li>Model Evaluation</li><li>Hyperparameter Tuning</li><li>SMOTE</li><li>SHAP</li></ul></article>
+        <article class="skill-card cyan-card reveal"><div class="card-icon">▥</div><h3 data-i18n="dataAnalysis">Data Analysis &amp; Visualization</h3><ul><li>Pandas</li><li>NumPy</li><li>Matplotlib</li><li>Seaborn</li></ul></article>
+        <article class="skill-card purple-card reveal"><div class="card-icon">♧</div><h3 data-i18n="professionalSkills">Professional Skills</h3><ul><li data-i18n="analytical">Analytical Thinking</li><li data-i18n="problemSolving">Problem Solving</li><li data-i18n="fastLearner">Fast Learner</li><li data-i18n="team">Team Collaboration</li><li data-i18n="adaptability">Adaptability</li></ul></article>
+      </div>
+    </section>
+
+    <section class="container projects-section" id="projects">
+      <div class="section-heading reveal"><div class="eyebrow" data-i18n="featuredProjects">FEATURED PROJECTS</div><h2 data-i18n="thingsBuilt">Things I've Built</h2></div>
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <img src="assets/home-credit.jpg" alt="Home Credit Default Risk dashboard visualization">
+          <h3>Home Credit Default Risk</h3>
+          <p data-i18n="homeCreditDescription">End-to-end ML pipeline to predict loan default risk on 307K+ applicants using LightGBM, SMOTE and SHAP.</p>
+          <div class="tags"><span>Python</span><span>LightGBM</span><span>SHAP</span></div>
+          <a href="https://github.com/Feton-alberekit/Home_Credit_Default_Risk" target="_blank" rel="noopener"><span data-i18n="viewGithub">View on GitHub</span><b>◉</b></a>
+        </article>
+        <article class="project-card reveal">
+          <img src="assets/telco.jpg" alt="Telco Customer Churn dashboard visualization">
+          <h3>Telco Customer Churn</h3>
+          <p data-i18n="telcoDescription">ML model to predict customer churn with feature engineering and Random Forest, achieving ROC-AUC of 0.84.</p>
+          <div class="tags"><span>Python</span><span>Random Forest</span><span>Scikit-learn</span></div>
+          <a href="https://github.com/Feton-alberekit/Telco-Customer-Churn" target="_blank" rel="noopener"><span data-i18n="viewGithub">View on GitHub</span><b>◉</b></a>
+        </article>
+        <article class="project-card reveal">
+          <img src="assets/rps.jpg" alt="Rock paper scissors image classification visualization">
+          <h3>Rock Paper Scissors Classification</h3>
+          <p data-i18n="rpsDescription">Image classification web app using Teachable Machine and TensorFlow.js. Recognizes rock, paper and scissors from user gestures.</p>
+          <div class="tags"><span>Teachable Machine</span><span>TF.js</span><span>HTML</span></div>
+          <a href="https://github.com/Feton-alberekit/rock-paper-scissors-web" target="_blank" rel="noopener"><span data-i18n="viewGithub">View on GitHub</span><b>◉</b></a>
+        </article>
+        <article class="project-card reveal">
+          <img src="assets/database.jpg" alt="University course registration database diagram">
+          <h3>University Course Registration System</h3>
+          <p data-i18n="databaseDescription">Designed and implemented a relational database for course registration using Oracle SQL and EER modeling.</p>
+          <div class="tags"><span>SQL</span><span>Oracle DB</span><span>EER</span></div>
+          <a href="https://github.com/Feton-alberekit/university-course-registration-sql" target="_blank" rel="noopener"><span data-i18n="viewGithub">View on GitHub</span><b>◉</b></a>
+        </article>
+      </div>
+      <div class="github-more reveal"><a href="https://github.com/Feton-alberekit" target="_blank" rel="noopener"><span data-i18n="moreGithub">View More on GitHub</span><b>◉</b></a></div>
+    </section>
+
+    <section class="container lower-grid section" id="journey">
+      <div class="left-stack">
+        <article class="panel education-panel reveal">
+          <div class="eyebrow" data-i18n="journeyCaps">JOURNEY</div><h2 data-i18n="education">Education</h2>
+          <div class="timeline"><div class="timeline-badge">⌂</div><div><h3 data-i18n="degree">Bachelor of Artificial Intelligence</h3><p>Taibah University</p><small data-i18n="degreeDescription">Focused on AI, Machine Learning, Data Science, and Intelligent Systems.</small></div></div>
+        </article>
+        <div class="small-panels">
+          <article class="panel reveal"><div class="eyebrow purple-text" data-i18n="leadership">LEADERSHIP &amp; ACTIVITIES</div><div class="activity"><span>◈</span><div><h3 data-i18n="volunteer">Volunteer</h3><p data-i18n="volunteerDescription">Data Analysis Camp Organization, Saudi Statistical Association</p></div></div><div class="activity"><span>◇</span><div><h3 data-i18n="member">Member</h3><p>Google Developer Student Club (GDSC)</p></div></div></article>
+          <article class="panel reveal"><div class="eyebrow purple-text" data-i18n="languages">LANGUAGES</div><div class="language-row"><span>🇸🇦</span><div><h3>العربية</h3><p data-i18n="native">Native</p></div><i class="meter full"></i></div><div class="language-row"><span>🇬🇧</span><div><h3>English</h3><p data-i18n="intermediate">Intermediate</p></div><i class="meter medium"></i></div></article>
+        </div>
+      </div>
+
+      <div class="right-stack">
+        <article class="panel certification-panel reveal">
+          <div class="eyebrow" data-i18n="certifications">CERTIFICATIONS &amp; TRAINING</div>
+          <div class="cert-grid">
+            <div class="cert"><span>◎</span><div><h3>PRE-AGENTIC AI BOOTCAMP</h3><p>PREHACK in collaboration with IBM SkillsBuild</p></div></div>
+            <div class="cert"><span>▣</span><div><h3>Data Analysis with Python</h3><p>IBM (Coursera)</p></div></div>
+            <div class="cert"><span>◌</span><div><h3>Unleashing the Power of AI Agents</h3><p>IBM SkillsBuild</p></div></div>
+            <div class="cert"><span>◉</span><div><h3>Artificial Intelligence Foundation Program</h3><p>Thakaa Center — 16 hours</p></div></div>
+            <div class="cert"><span>◈</span><div><h3>Machine Learning with Python</h3><p>IBM (Coursera)</p></div></div>
+            <div class="cert"><span>✎</span><div><h3>UI/UX Design Bootcamp</h3><p>IEEE Club, Taibah University — 6 hours</p></div></div>
+            <div class="cert"><span>◇</span><div><h3>Cybersecurity Fundamentals Workshop</h3><p>Taibah University — 3 hours</p></div></div>
+          </div>
+        </article>
+        <article class="panel contact-panel reveal" id="contact">
+          <div><div class="eyebrow purple-text" data-i18n="letsConnect">LET'S CONNECT</div><p data-i18n="connectDescription">I'm always open to discussing new opportunities, collaborations, and interesting projects.</p></div>
+          <div class="contact-links"><a href="https://github.com/Feton-alberekit" target="_blank" rel="noopener">◉ GitHub</a><a href="https://www.linkedin.com/in/feton-alberekit" target="_blank" rel="noopener">in LinkedIn</a><a href="mailto:FetonAlberekit@outlook.com">✉ Email</a></div>
+          <div class="neural-sphere" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer><p>© <span id="year"></span> Feton Alberekit. <span data-i18n="rights">All rights reserved.</span></p><p data-i18n="builtWith">Designed &amp; built with curiosity and lots of technology.</p></footer>
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
