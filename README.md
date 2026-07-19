@@ -1,5 +1,8 @@
 
 # 🌐 Personal Portfolio Website
+<p align="center">
+  <img src="my_portfolio.png" alt="Portfolio Preview" width="900">
+</p> 
 
 A modern, responsive portfolio website showcasing my journey in Artificial Intelligence, featured projects, technical skills, and professional growth.
 
@@ -76,8 +79,6 @@ It serves as a central place where recruiters, collaborators, and potential clie
 
 ---
 
-## 📸 Preview
 
----
 
 ⭐ If you like this project, feel free to explore my repositories and connect with me.
